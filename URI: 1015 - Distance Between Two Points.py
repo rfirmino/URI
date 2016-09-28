@@ -1,0 +1,10 @@
+p1 = input()
+p1 = p1.split()
+x1 = float(p1[0])
+y1 = float(p1[1])
+p2 = input()
+p2 = p2.split()
+x2 = float(p2[0])
+y2 = float(p2[1])
+d = ((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))**(1/2);
+print("%.4lf" % d)
