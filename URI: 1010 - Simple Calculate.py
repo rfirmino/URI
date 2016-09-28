@@ -1,0 +1,12 @@
+cnp1 = input()
+cnp1 = cnp1.split()
+c1=int(cnp1[0])
+n1=int(cnp1[1])
+p1=float(cnp1[2])
+cnp2 = input()
+cnp2 = cnp2.split()
+c2=int(cnp2[0])
+n2=int(cnp2[1])
+p2=float(cnp2[2])
+valor = n1*p1 + n2*p2
+print("VALOR A PAGAR: R$ %.2lf" % valor)
