@@ -1,2 +1,2 @@
 # URI Online Judge
-My <a href="http://urionlinejudge.com.br/">URI Online Judge</a> solutions
+My <a href="https://www.urionlinejudge.com.br/judge/en/profile/10157">URI Online Judge</a> solutions
