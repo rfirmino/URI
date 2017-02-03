@@ -1,0 +1,9 @@
+v = input()
+v = v.split()
+n = int(v[0])
+dict = {61: 'Brasilia', 71: 'Salvador', 11: 'Sao Paulo', 21: 'Rio de Janeiro',
+32: 'Juiz de Fora', 19: 'Campinas', 27: 'Vitoria', 31: 'Belo Horizonte'}
+if n in dict:
+	print(dict[n])
+else:
+	print("DDD nao cadastrado")
