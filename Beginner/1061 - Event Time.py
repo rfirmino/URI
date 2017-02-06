@@ -23,17 +23,11 @@ s = s2 - s1
 if h < 0:
 	h += 24
 	d -= 1
-	if m < 0:
-		m += 60
-		h -= 1
-	if s < 0:
-		s += 60
-		m -= 1
-else:
-	if m < 0:
-		m += 60
-		h -= 1
-	if s < 0:
-		s += 60
-		m -= 1
+if m < 0:
+	m += 60
+	h -= 1
+if s < 0:
+	s += 60
+	m -= 1
+	
 print("%d dia(s)\n%d hora(s)\n%d minuto(s)\n%d segundo(s)" % (d,h,m,s))
